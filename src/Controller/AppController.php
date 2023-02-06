@@ -1,0 +1,10 @@
+<?php
+
+namespace Ordenes\Controller;
+
+use App\Controller\AppController as BaseController;
+
+class AppController extends BaseController
+{
+
+}

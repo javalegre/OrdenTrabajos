@@ -1,0 +1,60 @@
+.input-group-addon {
+    background-color: #f9f9f9;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 6px 12px;
+    text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.btn-monitoreo.active,
+.btn-monitoreo:active,
+.btn-monitoreo:hover {
+    color:#666;
+    background-color:#e6e6e6;
+    border-color:#e0e0e0;
+    box-shadow:0 1px 3px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.6)
+}
+.btn-monitoreo.active.focus,
+.btn-monitoreo.active:focus,
+.btn-monitoreo.active:hover,
+.btn-monitoreo:active.focus,
+.btn-monitoreo:active:focus,
+.btn-monitoreo:active:hover {
+    color:#666;
+    background-color:#d4d4d4;
+    border-color:#bfbfbf;
+    box-shadow:0 2px 2px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.18)
+}
+.btn-monitoreo {
+    font-size:12px;
+    font-weight:600;
+    text-transform:uppercase;
+    transition:box-shadow .28s cubic-bezier(.4,0,.2,1);
+    overflow:hidden;
+    position:relative;
+    user-select:none;
+    margin-left:1px !important;
+    margin-right:1px !important;
+    display: inline-block;
+    color:inherit;
+    background: white;
+    border: 1px solid #ccc;
+}
+.btn-icon-only {
+    height: 27px;
+    width: 27px;
+}
+.btn-circle {
+    border-radius:25px!important;
+    padding: 5px 0px 3px 0px;
+    overflow:hidden
+}
+/* Acomodo los botones superiores del datatable */
+.botones-tabla-top-right {
+    text-align: right;
+    padding-right: 2px !important;
+    padding-bottom: 0px;
+}
